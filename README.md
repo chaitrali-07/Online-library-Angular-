@@ -82,3 +82,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
 ---
 ## Snapshot
+   <img width="1366" height="768" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/d3f1099a-52e4-44af-b36e-00256b30cec8" />
+   <img width="1366" height="768" alt="Screenshot (190)" src="https://github.com/user-attachments/assets/274a9205-a43a-4bd9-9536-3af0bf0ef31a" />
+
+<img width="1366" height="768" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/3e95db58-25b8-4d14-887d-80eb50afd6af" />
+
