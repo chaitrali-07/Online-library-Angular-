@@ -1,1 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at 30% 40%, 
+    rgba(255, 209, 179, 0.9) 0%,   
+    rgba(253, 216, 192, 0.8) 20%,  
+    rgba(243, 208, 230, 0.8) 40%,  
+    rgba(208, 228, 250, 0.85) 70%, 
+    rgba(203, 224, 247, 0.9) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  font-family: sans-serif;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header, footer {
+  background: #a78bfa; /* dusty purple */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fff0f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.card input[type="text"],
+.card input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #d1c4e9;
+}
+
+.card input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.card button {
+  background: #b388eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #a076e8;
+}
+
+.genre-section {
+  margin-bottom: 30px;
+}
+
+.genre-section h2 {
+  background-color: #e5d4f8;
+  padding: 10px;
+  border-left: 5px solid #b388eb;
+  border-radius: 6px;
+}
+
+.book-card {
+  background: #f6f0fa;
+  border-left: 5px solid #caa9ff;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.book-card strong {
+  font-size: 18px;
+  color: #5e35b1;
+}
+
+.borrow-button {
+  margin-top: 10px;
+  background: #ab47bc;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.borrow-button:hover {
+  background: #9c27b0;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #6a1b9a;
+}
+
+.add-book-form .form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.add-book-form input {
+  flex: 1;
+}

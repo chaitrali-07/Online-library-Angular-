@@ -1,0 +1,23 @@
+<header>
+  <h1>
+    <img src="assets/library-logo.jpg" alt="logo" style="height: 50px; vertical-align: middle;">
+    Virtual Library
+  </h1>
+  <p>"A room without books is like a body without a soul."</p>
+</header>
+
+<main class="container">
+  <h2 class="section-title">Books Arranged By Genre</h2>
+
+  @for (book of bookList; track book.bkid) {
+    <div class="card">
+      <h3>{{ book.bkname }}</h3>
+      <p><strong>Author:</strong> {{ book.bkauth }}</p>
+      <p><strong>Genre:</strong> {{ book.genre }}</p>
+      <p><strong>Available:</strong> {{ book.quantity }} / {{ book.totalQuantity }}</p>
+
+      <button (click)="borrowBook(book)">Borrow</button>
+      <button (click)="returnBook(book)">Return</button>
+    </div>
+  }
+</main>

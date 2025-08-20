@@ -1,0 +1,19 @@
+<form (ngSubmit)="onSubmit()" #bookForm="ngForm" class="card add-book-form">
+  <h2>Add a New Book</h2>
+
+  <div class="form-row">
+    <input type="text" [(ngModel)]="newBook.bkname" name="bkname" placeholder="Book Title" required />
+    <input type="text" [(ngModel)]="newBook.bkauth" name="bkauth" placeholder="Author" required />
+  </div>
+
+  <div class="form-row">
+    <input type="text" [(ngModel)]="newBook.genre" name="genre" placeholder="Genre" required />
+    <input type="number" [(ngModel)]="newBook.quantity" name="quantity" placeholder="Quantity" required />
+  </div>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="newBook.available" name="available" /> Available
+  </label>
+
+  <button type="submit">Add Book</button>
+</form>
