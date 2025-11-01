@@ -7,7 +7,7 @@ This project was developed by:
 | Chaitrali Diwanji   | [chaitrali-07](https://github.com/chaitrali-07) |
 | Priya Telange       | [priya-02](https://github.com/priya-02) |
 | Siddhi Joshi        |[siddhijoshi-dotcom](https://github.com/siddhijoshi-dotcom) |
-
+|Jagruti Joshi        |[jagrutijoshi25](https://github.com/jagrutijoshi25)|
 ---
 
 # 📚 Online Library System
